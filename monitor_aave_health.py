@@ -5,7 +5,7 @@ from datetime import datetime
 # Configuration
 RPC_URL = "https://eth.llamarpc.com"
 POOL_ADDRESS = "0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2" 
-TARGET_USER = "0xc4aa37375ac1004945d7bced3f222090b3db5bd0"
+TARGET_USER = "0xbc6babac311b0dc172c594470e69b47c3cc3b301"
 
 # Max uint256 for "No Debt" check
 MAX_UINT256 = 115792089237316195423570985008687907853269984665640564039457584007913129639935
@@ -75,7 +75,7 @@ def main():
                 if health_factor < 1.0:
                     current_status = "LIQUIDATION"
                     is_alert = True
-                elif health_factor < 1.2:
+                elif health_factor < 1.1:
                     current_status = "RISKY"
                     is_alert = True
                 else:
