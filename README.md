@@ -64,7 +64,6 @@ User: 0x7a1... | HF: 1.04 | Status: RISKY
 ## Roadmap
 
 * Integration with Pendle Finance to monitor Implied Yield risk on PT-collateral.
-* Web-based visualization using Streamlit.
 * Telegram/Discord webhook integration for push notifications.
 
 ## Disclaimer
