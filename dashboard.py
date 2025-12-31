@@ -14,6 +14,8 @@ WHALE_WATCHLIST = {
     "0x176F3DAb24a159341c0509bB36B833E7fdd0a132": "Justin Sun",
     "0x1bE2056cA0b95113E2FAf8EB590b5b572cc71Ac1": "Random user",
     "0x1129Eca5365F84a6De641f343fDbA1069c1C4B8f": "Random user #2",
+    '0x2d8873c5270c64C66E831e1E359f88f9E81A91Fd': 'Random user #3',
+    '0x11ec133ec18d2a7ecc48898c84e4395b961f1359': 'Random user #4',
 }
 
 # Max uint256 for "No Debt" check
